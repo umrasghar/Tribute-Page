@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Prata&family=Sora&display=swap');
+
+/* font-family: 'Libre Baskerville', serif;
+
+font-family: 'Prata', serif;
+
+font-family: 'Sora', sans-serif; */
+
+
+
+body {
+    
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+
+}
+
+main {
+    padding: 15px;
+    margin: 30px 8px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+
+#title-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Prata', serif;
+}
+#description {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+#img-div {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-top: 20px;
+    color: #717171;
+}
+
+#tribute-info {
+    /* margin-top: 30px; */
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.6;
+    
+}
+
+#tribute-info h3 {
+    color: #333;
+    text-decoration: none;
+    font-weight: 800;
+    margin: 50px auto;
+}
+
+#tribute-info ul {
+    color: #333;
+    text-decoration: none;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
+
+#tribute-info li {
+    margin: 16px 0;;
+}
+
+blockquote {
+    max-width: 550px;
+    margin: 10px auto 20px auto;
+}
+
+footer {
+    padding: 10px 20px;
+    
+}
+
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+    h1 {
+        font-size: 2em;
+    }
+  }
